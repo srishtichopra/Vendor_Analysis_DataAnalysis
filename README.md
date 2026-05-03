@@ -1,120 +1,48 @@
-📊 Vendor Performance & Product Sales Analysis (Alcohol Retail Industry)
-📌 Project Overview
-This project presents a comprehensive analysis of vendor performance and product sales within the alcohol retail industry. The dataset consists of 10,692 records, used to uncover insights related to:
+# Vendor Import Analysis 📦
+
+## Overview
+Analysis of vendor purchase and sales data to identify top-performing
+vendors, uncover profitability gaps, and provide data-driven insights
+to optimize procurement and purchasing strategy.
+
+## Problem Statement
+Businesses lose significant revenue due to poor vendor selection and
+inefficient purchasing decisions. This project aims to identify which
+vendors deliver the best return on investment and flag underperforming
+or loss-making products.
+
+## Dataset
+- 10,692 vendor-brand records
+- 13 financial metrics including PurchasePrice, ActualPrice,
+  TotalPurchaseDollars, TotalSalesDollars, GrossProfit,
+  ProfitMargin, StockTurnover, FreightCost, SalesToPurchaseRatio
+
+## Key Findings
+- Top 10 vendors account for 65.34% of total purchase volume
+- DIAGEO NORTH AMERICA INC is the highest revenue vendor at
+  $68.74M in sales with 15.83% purchase contribution — more
+  than double the second largest vendor
+- CONSTELLATION BRANDS INC is the most purchase-efficient vendor
+  generating $8.89M gross profit on $15.57M in purchases vs
+  DIAGEO which needed $50.96M to generate $17.78M gross profit
+- Loss-making SKUs identified with negative gross profit of
+  up to -$52,002 flagged for vendor renegotiation
+- Median profit margin: 30.4% | Average retail markup: 44%
+  over purchase price
+
+## What's Covered
+- Vendor performance ranking by total sales and gross profit
+- Brand-level revenue analysis — top 10 brands by sales
+- Pareto analysis — cumulative vendor purchase contribution
+- Profit efficiency comparison across vendors
+- Correlation heatmap across all financial metrics
+- Loss-making product identification
+
+## Tech Stack
+Python | Pandas | NumPy | Matplotlib | Seaborn | SQLite
 
 
-Top-performing brands
 
-
-Pricing patterns
-
-
-Inventory efficiency
-
-
-The goal is to identify key revenue drivers and evaluate how effectively inventory aligns with sales.
-
-📂 Dataset Information
-
-
-Total Records: 10,692
-
-
-Domain: Alcohol Retail Industry
-
-
-Key Features:
-
-
-Vendor Name
-
-
-Product Description
-
-
-Purchase Quantity
-
-
-Sales Quantity
-
-
-Revenue Metrics
-
-
-
-
-
-📈 Key Insights from Visualizations
-📊 Market Concentration
-
-
-Histograms show right-skewed distributions in financial metrics
-
-
-Indicates that a small number of "superstar" brands dominate revenue
-
-
-
-🏢 Vendor Dominance
-
-
-Martignetti Companies appears most frequently
-
-
-Present in 1300+ records, making it the leading vendor in dataset representation
-
-
-
-🥃 Most Frequent Product
-
-
-Southern Comfort is the most frequently occurring product
-
-
-Highest number of entries across dataset
-
-
-
-📦 Inventory Efficiency
-
-
-Scatter plot of:
-
-
-TotalPurchaseQuantity vs TotalSalesQuantity
-
-
-
-
-Shows near-perfect linear relationship
-
-
-Suggests:
-
-
-Strong demand prediction
-
-
-Minimal overstock/understock issues
-
-
-
-
-
-💰 Top 5 Brands by Sales Revenue
-RankBrandRevenue ($)1Jack Daniels No 7 Black5,101,919.512Tito's Handmade Vodka4,819,073.493Absolut 80 Proof4,538,120.604Capt Morgan Spiced Rum4,475,972.885Ketel One Vodka4,223,107.62
-
-🛠️ Technologies Used
-The analysis is implemented in Python using the following libraries:
-
-
-pandas → Data manipulation
-
-
-numpy → Numerical operations
-
-
-matplotlib → Data visualization
 
 
 
