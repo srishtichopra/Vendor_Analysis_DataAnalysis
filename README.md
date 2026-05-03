@@ -8,11 +8,11 @@ to optimize procurement and purchasing strategy.
 ## Dataset
 - 10,692 vendor-brand records
 - Data collected from kaggle 
-- Table names: purchases
-  purchase_prices
-  vendor_invoice
-	begin_inventory
-	end_inventory
+- Table names: purchases,
+  purchase_prices,
+  vendor_invoice,
+	begin_inventory,
+	end_inventory,
 	sales
 
 ## Key Findings
