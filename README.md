@@ -7,9 +7,7 @@ to optimize procurement and purchasing strategy.
 
 ## Dataset
 - 10,692 vendor-brand records
-- 13 financial metrics including PurchasePrice, ActualPrice,
-  TotalPurchaseDollars, TotalSalesDollars, GrossProfit,
-  ProfitMargin, StockTurnover, FreightCost, SalesToPurchaseRatio
+- Data collected from kaggle
 
 ## Key Findings
 - Top 10 vendors account for 65.34% of total purchase volume
