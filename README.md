@@ -1,15 +1,9 @@
-# Vendor Import Analysis 📦
+# Vendor Performance Analysis 📦
 
 ## Overview
 Analysis of vendor purchase and sales data to identify top-performing
 vendors, uncover profitability gaps, and provide data-driven insights
 to optimize procurement and purchasing strategy.
-
-## Problem Statement
-Businesses lose significant revenue due to poor vendor selection and
-inefficient purchasing decisions. This project aims to identify which
-vendors deliver the best return on investment and flag underperforming
-or loss-making products.
 
 ## Dataset
 - 10,692 vendor-brand records
