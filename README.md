@@ -1,4 +1,4 @@
-# Vendor Performance Analysis 📦
+# Vendor Performance Analysis 
 
 ## Overview
 Analysis of vendor purchase and sales data to identify top-performing
